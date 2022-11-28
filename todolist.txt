@@ -1,5 +1,12 @@
 FIXME: Todo Tree install
 TODO: DB schema to be changed for users to accounts
 TODO: name, surname, email, password, account_type
-TODO: Register endpoint to be developed for CRUD ops
+TODO: Register endpoint
+    POST register/
+    GET account/{id}
+    POST login/
+      { email: "xxx", password: "xxx" }
+      Success : {account data} HTTP: 200
+      Fail : {"message": "Invalid username/password"} HTTP: 400
+
 
