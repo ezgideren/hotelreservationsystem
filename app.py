@@ -49,3 +49,6 @@ def get_reservation(surname: str = None):
 			return reservations[reservation_id]
 	return {"Data" : "Not Found"}
 
+@app.post("/register")
+def create_acc(account_request: AccountRequest):
+	return{}
