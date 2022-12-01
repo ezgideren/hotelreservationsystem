@@ -1,5 +1,5 @@
 FIXME: Todo Tree install
-TODO: DB schema to be changed for users to accounts
-TODO: name, surname, email, password, account_type
+FIXME: DB schema to be changed for users to accounts
+FIXME: name, surname, email, password, account_type
 TODO: Register endpoint to be developed for CRUD ops
 
